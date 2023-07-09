@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nisum</groupId>
-	<artifactId>test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>NisumApi</artifactId>
+	<version>1.0</version>
 	<name>test</name>
 	<description>Nisum test project</description>
 	<properties>
