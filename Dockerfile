@@ -9,5 +9,5 @@ COPY target/NisumApi-1.0.jar app.jar
 EXPOSE 8080
 
 # Comando para ejecutar la aplicación
-CMD ["java", "-jar", "target/NisumApi-1.0.jar"]
+CMD ["java", "-jar", "app.jar"]
 
