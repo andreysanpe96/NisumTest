@@ -15,3 +15,7 @@ validation.regex.password : ^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#$%^&+=!])(?!.*\s).{8,
 
 #JWT
 jwt.secret.key: JwtSecretKeyForDevEnviromentToNisumTestOfAndrey!
+
+logging:
+  level:
+    root: debug
