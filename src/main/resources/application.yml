@@ -18,4 +18,5 @@ jwt.secret.key: JwtSecretKeyForDevEnviromentToNisumTestOfAndrey!
 
 logging:
   level:
-    root: debug
+    org:
+      springframework: DEBUG
