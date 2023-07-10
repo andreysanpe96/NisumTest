@@ -1,5 +1,5 @@
 # Establecer la imagen base
-FROM openjdk:11-jdk
+FROM openjdk:17-jdk
 
 COPY target/NisumApi-1.0.jar app.jar
 
