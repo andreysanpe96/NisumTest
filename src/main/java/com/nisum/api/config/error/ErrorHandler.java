@@ -16,7 +16,7 @@ import java.util.Objects;
 public class ErrorHandler {
 
     @ExceptionHandler(ApiNisumException.class)
-    public ResponseEntity<ErrorMessage> apiNisumException(ApiNisumException ex, WebRequest request) {
+    public ResponseEntity<ErrorMessage> apiNisumHandlerException(ApiNisumException ex, WebRequest request) {
         ErrorMessage errorMessage = new ErrorMessage();
         errorMessage.setMessage(ex.getMessage());
         return new ResponseEntity<>(errorMessage, ex.getStatus());
